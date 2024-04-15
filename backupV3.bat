@@ -102,8 +102,8 @@ if /i "%~1"=="-I" (
 
 :BadSyntax
 echo.
-rem La commande 'net helpmsg' affiche un message prédéfini dans
-rem la langue d'installation du système d'exploitation
+rem La commande 'net helpmsg' affiche un message prÃ©dÃ©fini dans
+rem la langue d'installation du systÃ¨me d'exploitation
 net helpmsg 87
 echo [ %~1 ]
 echo.
@@ -142,11 +142,11 @@ goto End
 
 :Help
 echo.
-echo %ScriptName% [-o|-O/o^|/O] ^<chemin de sortie du backup^> [-i|-I|/i^|/I] ^<chemin d'entrée du backup^>
+echo %ScriptName% [-o|-O/o^|/O] ^<chemin de sortie du backup^> [-i|-I|/i^|/I] ^<chemin d'entrÃ©e du backup^>
 echo %ScriptName% {/?^|-?^|/h^|-h^|/help^|-help}
 echo.
-echo     [-o|-O/o^|/O]      Définit le ^<chemin de sortie du backup^> qui doit être une chaine de charactère.
-echo     [-i|-I|/i^|/I]     Définit le ^<chemin d'entrée du backup^>.
+echo     [-o|-O/o^|/O]      DÃ©finit le ^<chemin de sortie du backup^> qui doit Ãªtre une chaine de charactÃ¨re.
+echo     [-i|-I|/i^|/I]     DÃ©finit le ^<chemin d'entrÃ©e du backup^>.
 echo.    /?                 Affiche cette aide.
 echo.
 
